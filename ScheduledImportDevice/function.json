@@ -1,0 +1,11 @@
+{
+  "bindings": [
+    {
+      "name": "importDeviceTimer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 */5 * * * *"
+    }
+  ],
+  "scriptFile": "../dist/ScheduledImportDevice/scheduled-import-device.js"
+}
