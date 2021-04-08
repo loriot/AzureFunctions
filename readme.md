@@ -11,3 +11,5 @@ Parameters:
 * *LORIOT_SERVER*: LORIOT network server url
 * *LORIOT_APPS*: Array of LORIOT application IDs
 * *LORIOT_API_KEY*: LORIOT user API key
+
+Note: the function runs on a schedule (daily), please change the schedule according to your needs
