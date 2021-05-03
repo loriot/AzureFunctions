@@ -1,8 +1,10 @@
 # LORIOT Azure Functions Library
 
-This repository contains useful Azure functions for LORIOT users
+This repository contains useful Azure functions for LORIOT users:
+- [Device Provisioning](#device-provisioning)
+- [Routing](#routing)
 
-## DeviceProvisioning
+## Device Provisioning
 Import devices from LORIOT to Azure IoT Hub:
 * ImportDevices: Http triggered function
 * ScheduledImportDevices: Time triggered function to ensure regular syncing of new devices
