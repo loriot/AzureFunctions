@@ -6,8 +6,8 @@ This repository contains useful Azure functions for LORIOT users:
 
 ## Device Provisioning
 Import devices from LORIOT to Azure IoT Hub:
-* ImportDevices: Http triggered function
-* ScheduledImportDevices: Time triggered function to ensure regular syncing of new devices
+* **ImportDevices**: Http triggered function
+* **ScheduledImportDevices**: Time triggered function to ensure regular syncing of new devices
 
 ### Environment parameters:
 * **AZURE_IOT_HUB_OWNER_CONNECTION_STRING**: IoT Hub connection string—primary key for iothubowner
@@ -23,7 +23,7 @@ Import devices from LORIOT to Azure IoT Hub:
 
 ## Routing
 Route incoming LORIOT messages
-* Routing: IoT Hub triggered function that parses every device uplink
+* **Routing**: IoT Hub triggered function that parses every device uplink
 
 ### Environment parameters:
 * **IOT_HUB_ENDPOINT**: IoT Hub Event Hub-compatible endpoint
