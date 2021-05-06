@@ -1,5 +1,5 @@
 # Routing
-![Routing](https://user-images.githubusercontent.com/6308233/117285417-49079e80-ae68-11eb-8678-1b9601b2f37c.jpg)
+![Routing](https://user-images.githubusercontent.com/6308233/117287621-d5b35c00-ae6a-11eb-82e5-bd1a969e0878.jpeg)
 
 Route incoming LORIOT messages
 * **Routing**: IoT Hub triggered function that parses every device uplink
