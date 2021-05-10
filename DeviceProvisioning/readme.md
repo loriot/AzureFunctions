@@ -7,7 +7,7 @@ Import devices from LORIOT to Azure IoT Hub:
 * **ScheduledImportDevices**: Time triggered function to ensure regular syncing of new devices
 
 ## Environment parameters:
-* **AZURE_IOT_HUB_OWNER_CONNECTION_STRING**: IoT Hub connection string—primary key for iothubowner
+* **IOT_HUB_OWNER_CONNECTION_STRING**: IoT Hub connection string—primary key for iothubowner
   > HostName=myiothub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=1nMDaC6ArtFRJVG/DYlbZnxJ+gMHRv9nr8KUSoem0t0=
 * **LORIOT_SERVER**: LORIOT network server url
   > eu1.loriot.io
