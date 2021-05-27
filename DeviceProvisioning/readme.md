@@ -1,10 +1,11 @@
 # Device Provisioning
-![ImportDevices](https://user-images.githubusercontent.com/6308233/117287563-c92f0380-ae6a-11eb-9367-74d192853816.jpg)
-![ScheduledImportDevices](https://user-images.githubusercontent.com/6308233/117287574-caf8c700-ae6a-11eb-81cc-c17b7bb0233f.jpeg)
 
 Import devices from LORIOT to Azure IoT Hub:
 * **ImportDevices**: Http triggered function
 * **ScheduledImportDevices**: Time triggered function to ensure regular syncing of new devices
+
+![ImportDevices](https://user-images.githubusercontent.com/6308233/117287563-c92f0380-ae6a-11eb-9367-74d192853816.jpg)
+![ScheduledImportDevices](https://user-images.githubusercontent.com/6308233/117287574-caf8c700-ae6a-11eb-81cc-c17b7bb0233f.jpeg)
 
 ## Environment parameters:
 * **IOT_HUB_OWNER_CONNECTION_STRING**: IoT Hub connection string—primary key for iothubowner
