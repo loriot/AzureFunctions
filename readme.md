@@ -5,12 +5,13 @@ This repository contains useful Azure functions for LORIOT users:
 - [Routing](#routing)
 
 ## Device Provisioning
-![ImportDevices](https://user-images.githubusercontent.com/6308233/117287563-c92f0380-ae6a-11eb-9367-74d192853816.jpg)
-![ScheduledImportDevices](https://user-images.githubusercontent.com/6308233/117287574-caf8c700-ae6a-11eb-81cc-c17b7bb0233f.jpeg)
 
 Import devices from LORIOT to Azure IoT Hub:
 * **ImportDevices**: Http triggered function
 * **ScheduledImportDevices**: Time triggered function to ensure regular syncing of new devices
+
+![ImportDevices](https://user-images.githubusercontent.com/6308233/117287563-c92f0380-ae6a-11eb-9367-74d192853816.jpg)
+![ScheduledImportDevices](https://user-images.githubusercontent.com/6308233/117287574-caf8c700-ae6a-11eb-81cc-c17b7bb0233f.jpeg)
 
 ### Environment parameters:
 * **IOT_HUB_OWNER_CONNECTION_STRING**: IoT Hub connection string—primary key for iothubowner
@@ -25,10 +26,11 @@ Import devices from LORIOT to Azure IoT Hub:
   > BE7A2148,BE7A25C0
 
 ## Routing
-![Routing](https://user-images.githubusercontent.com/6308233/117287621-d5b35c00-ae6a-11eb-82e5-bd1a969e0878.jpeg)
 
 Route incoming LORIOT messages
 * **Routing**: IoT Hub triggered function that parses every device uplink
+
+![Routing](https://user-images.githubusercontent.com/6308233/117287621-d5b35c00-ae6a-11eb-82e5-bd1a969e0878.jpeg)
 
 ### Environment parameters:
 * **IOT_HUB_ENDPOINT**: IoT Hub Event Hub-compatible endpoint
