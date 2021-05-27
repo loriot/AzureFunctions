@@ -1,8 +1,9 @@
 # Routing
-![Routing](https://user-images.githubusercontent.com/6308233/117287621-d5b35c00-ae6a-11eb-82e5-bd1a969e0878.jpeg)
 
 Route incoming LORIOT messages
 * **Routing**: IoT Hub triggered function that parses every device uplink
+
+![Routing](https://user-images.githubusercontent.com/6308233/117287621-d5b35c00-ae6a-11eb-82e5-bd1a969e0878.jpeg)
 
 ## Environment parameters:
 * **IOT_HUB_ENDPOINT**: IoT Hub Event Hub-compatible endpoint
